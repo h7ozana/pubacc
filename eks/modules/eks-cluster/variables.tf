@@ -3,11 +3,13 @@
 ################################################################################
 
 variable "profile" {
-  type = string
+  type    = string
+  default = "default"
 }
 
 variable "main-region" {
-  type = string
+  type    = string
+  default = "ap-northeast-2"
 }
 
 ################################################################################
